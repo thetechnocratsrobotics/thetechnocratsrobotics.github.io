@@ -1,7 +1,7 @@
 
 # Technocrats Robotics Website
 
-Welcome to the official website of **Technocrats Robotics**, where a dedicated team of passionate engineering students from **VIT Chennai** comes together to innovate in robotics and automation. Built by **Kaustav Malik**, this platform highlights the collective efforts of our team, showcasing projects, achievements, and milestones as we strive to push the boundaries of technology.
+Welcome to the official website of **Technocrats Robotics**, where a dedicated team of passionate engineering students from **VIT Chennai** comes together to innovate in robotics and automation. Built by team members, this platform highlights the collective efforts of our team, showcasing projects, achievements, and milestones as we strive to push the boundaries of technology.
 
 ---
 
@@ -50,6 +50,12 @@ We welcome contributions to enhance the website! To contribute:
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
+##Contributors
+
+This website is developed by the following persons:
+https://kaustavmalik.github.io/
+
 
 ## Contact
 
