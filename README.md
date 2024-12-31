@@ -51,10 +51,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-##Contributors
+## Contributors
 
 This website is developed by the following persons:
-https://kaustavmalik.github.io/
+-https://kaustavmalik.github.io/
 
 
 ## Contact
