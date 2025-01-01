@@ -51,6 +51,54 @@
 
 </head>
 
+<style>
+    .project-wrapper figure {
+margin: 10px;
+width: 355px; /* Set a fixed width */
+height: 260px; /* Set a fixed height */
+position: relative;
+}
+
+.project-wrapper figure img {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Ensures the image fits properly */
+display: block;
+}
+
+.project-wrapper figure .fancybox {
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+text-align: center;
+line-height: 200px; /* Match the height of the figure */
+background: rgba(0, 0, 0, 0.6); /* Adjust overlay color and opacity */
+color: #fff;
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+
+.project-wrapper figure:hover .fancybox {
+opacity: 1;
+}
+
+.project-wrapper figure .overlay h4,
+.project-wrapper figure .overlay p {
+margin: 0;
+color: white;
+text-align: center;
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+    
+</style>
+
 <body id="body">
 
     <!-- preloader -->
@@ -88,7 +136,7 @@
                     <li><a href="#about"><h5>About</h5></a></li>
                     <li><a href="#features"><h5>Features</h5></a></li>
                     <li><a href="#works"><h5>Work</h5></a></li>
-                    <li><a href="#recuitment"><h5>Join</h5></a></li>
+                    <li><a href="#recruitment"><h5>Join</h5></a></li>
                     <li><a href="#team"><h5>Team</h5></a></li>
                     <li><a href="#sponsors"><h5>Sponsors</h5></a></li>
                     <li><a href="#contact"><h5>Contact</h5></a></li>
@@ -305,7 +353,7 @@
                     <a class="fancybox" rel="works" title="Robocon Divion 2023-2025" href="img/works/Robocon/ro1.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Robocon Divion 2023-2025</h4>
-                    <p>Robocon</p>
+                    <!-- <p>Robocon</p> -->
                 </figcaption>
             </figure>
 
@@ -315,7 +363,7 @@
                     <a class="fancybox" rel="works" title="Rover Bot" href="img/works/Rover/rv1.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Abhimanyu Bot</h4>
-                    <p>Rover</p>
+                    <!-- <p>Rover</p> -->
                 </figcaption>
             </figure>
 
@@ -325,7 +373,7 @@
                     <a class="fancybox" rel="works" title="Arjun's Odessy- TechnoVIT" href="img/works/Events/e1.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Arjun's Odessy- TechnoVIT</h4>
-                    <p>Events</p>
+                    <!-- <p>Events</p> -->
                 </figcaption>
             </figure>
 
@@ -335,7 +383,7 @@
                     <a class="fancybox" rel="works" title="Agritech Competition" href="img/works/Others/o1.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Agritech Competition</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
 
@@ -345,7 +393,7 @@
                     <a class="fancybox" rel="works" title="Arjun Bot" href="img/works/Robocon/ro2.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Arjun Bot</h4>
-                    <p>Robocon</p>
+                    <!-- <p>Robocon</p> -->
                 </figcaption>
             </figure>
 
@@ -355,7 +403,7 @@
                     <a class="fancybox" rel="works" title="Rover Bot" href="img/works/Rover/rv2.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Abhimanyu Bot</h4>
-                    <p>Rover</p>
+                    <!-- <p>Rover</p> -->
                 </figcaption>
             </figure>
 
@@ -365,7 +413,7 @@
                     <a class="fancybox" rel="works" title="Arjun's Odessy- TechnoVIT" href="img/works/Events/e2.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Arjun's Odessy- TechnoVIT</h4>
-                    <p>Events</p>
+                    <!-- <p>Events</p> -->
                 </figcaption>
             </figure>
 
@@ -375,7 +423,7 @@
                     <a class="fancybox" rel="works" title="Agritech Competition" href="img/works/Others/o2.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Agritech Competition</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
 
@@ -385,7 +433,7 @@
                     <a class="fancybox" rel="works" title="Team TCR at Robocon'24" href="img/works/Robocon/ro3.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Team TCR at Robocon'24</h4>
-                    <p>Robocon</p>
+                    <!-- <p>Robocon</p> -->
                 </figcaption>
             </figure>
 
@@ -395,7 +443,7 @@
                     <a class="fancybox" rel="works" title="IRDC- Rover Bot" href="img/works/Rover/rv3.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>IRDC- Rover Bot</h4>
-                    <p>Rover</p>
+                    <!-- <p>Rover</p> -->
                 </figcaption>
             </figure>
             
@@ -405,7 +453,7 @@
                     <a class="fancybox" rel="works" title="Arjun's Odessy- TechnoVIT" href="img/works/Events/e3.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Arjun's Odessy- TechnoVIT</h4>
-                    <p>Events</p>
+                    <!-- <p>Events</p> -->
                 </figcaption>
             </figure>
 
@@ -415,7 +463,7 @@
                     <a class="fancybox" rel="works" title="Working on AgriBot" href="img/works/Others/o3.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Working on AgriBot</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
 
@@ -425,7 +473,7 @@
                     <a class="fancybox" rel="works" title="Karan Bot" href="img/works/Robocon/ro4.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Karan Bot</h4>
-                    <p>Robocon</p>
+                    <!-- <p>Robocon</p> -->
                 </figcaption>
             </figure>
 
@@ -435,7 +483,7 @@
                     <a class="fancybox" rel="works" title="Rover Bot" href="img/works/Rover/rv4.JPG"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Rover Bot</h4>
-                    <p>Rover</p>
+                    <!-- <p>Rover</p> -->
                 </figcaption>
             </figure>
 
@@ -445,7 +493,7 @@
                     <a class="fancybox" rel="works" title="Arjun's Odessy- TechnoVIT" href="img/works/Events/e4.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Arjun's Odessy- TechnoVIT</h4>
-                    <p>Events</p>
+                    <!-- <p>Events</p> -->
                 </figcaption>
             </figure>
 
@@ -455,7 +503,7 @@
                     <a class="fancybox" rel="works" title="Technoxian" href="img/works/Others/o4.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Technoxian</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
 
@@ -465,7 +513,7 @@
                     <a class="fancybox" rel="works" title="Team TCR - Robocon'24" href="img/works/Robocon/ro5.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Team TCR - Robocon'24</h4>
-                    <p>Robocon</p>
+                    <!-- <p>Robocon</p> -->
                 </figcaption>
             </figure>
 
@@ -475,7 +523,7 @@
                     <a class="fancybox" rel="works" title="Rover Bot" href="img/works/Rover/rv5.png"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Rover Bot</h4>
-                    <p>Rover</p>
+                    <!-- <p>Rover</p> -->
                 </figcaption>
             </figure>
 
@@ -485,7 +533,7 @@
                     <a class="fancybox" rel="works" title="Team TCR - TechnoVIT" href="img/works/Events/e5.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Team TCR - TechnoVIT</h4>
-                    <p>Events</p>
+                    <!-- <p>Events</p> -->
                 </figcaption>
             </figure>
 
@@ -495,7 +543,7 @@
                     <a class="fancybox" rel="works" title="Technoxian" href="img/works/Others/o5.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Technoxian</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
             
@@ -505,7 +553,7 @@
                     <a class="fancybox" rel="works" title="Robocon Competition" href="img/works/Robocon/ro6.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Robocon Competition</h4>
-                    <p>Robocon</p>
+                    <!-- <p>Robocon</p> -->
                 </figcaption>
             </figure>
 
@@ -515,7 +563,7 @@
                     <a class="fancybox" rel="works" title="Electrical Box- Abhimanyu" href="img/works/Rover/rv6.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Electrical Box- Abhimanyu</h4>
-                    <p>Rover</p>
+                    <!-- <p>Rover</p> -->
                 </figcaption>
             </figure>
 
@@ -524,8 +572,8 @@
                 <figcaption class="overlay">
                     <a class="fancybox" rel="works" title="Team with Bangladesh and China Deligates" href="img/works/Events/e6.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
-                    <h4>Team with Bangladesh and China Deligates</h4>
-                    <p>Events</p>
+                    <h4>Bangladesh and China Deligates</h4>
+                    <!-- <p>Events</p> -->
                 </figcaption>
             </figure>
 
@@ -535,7 +583,7 @@
                     <a class="fancybox" rel="works" title="Interview - Technoxian" href="img/works/Others/o6.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Interview - Technoxian</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
 
@@ -545,7 +593,7 @@
                     <a class="fancybox" rel="works" title="Robocon Bot" href="img/works/Robocon/ro7.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Robocon Bot</h4>
-                    <p>Robocon</p>
+                    <!-- <p>Robocon</p> -->
                 </figcaption>
             </figure>
 
@@ -555,7 +603,7 @@
                     <a class="fancybox" rel="works" title="Team TCR at IRC" href="img/works/Rover/rv7.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Team TCR at IRC</h4>
-                    <p>Rover</p>
+                    <!-- <p>Rover</p> -->
                 </figcaption>
             </figure>
 
@@ -565,7 +613,7 @@
                     <a class="fancybox" rel="works" title="Roboprix Winner" href="img/works/Others/o7.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Roboprix Winner</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
 
@@ -575,7 +623,7 @@
                     <a class="fancybox" rel="works" title="Robocon Bot" href="img/works/Robocon/ro8.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Robocon Bot</h4>
-                    <p>Robocon</p>
+                    <!-- <p>Robocon</p> -->
                 </figcaption>
             </figure>
 
@@ -585,7 +633,7 @@
                     <a class="fancybox" rel="works" title="Rover Bot" href="img/works/Rover/rv8.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Rover Bot</h4>
-                    <p>Rover</p>
+                    <!-- <p>Rover</p> -->
                 </figcaption>
             </figure>
 
@@ -595,7 +643,7 @@
                     <a class="fancybox" rel="works" title="Roboprix Bot" href="img/works/Others/o8.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Roboprix Bot</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
 
@@ -605,7 +653,7 @@
                     <a class="fancybox" rel="works" title="Roboprix Winner" href="img/works/Others/o9.jpeg"><i
                             class="fa fa-eye fa-lg"></i></a>
                     <h4>Roboprix Winner</h4>
-                    <p>Others</p>
+                    <!-- <p>Others</p> -->
                 </figcaption>
             </figure>
 
@@ -617,30 +665,30 @@
         ==================================== -->
 
     <!--
-        Recuitments
+        Recruitments
         ==================================== -->
 
-    <section id="recuitment" class="features">
+    <section id="recruitment" class="features">
         <div class="container">
             <div class="row">
 
                 <div class="sec-title text-center">
-                    <h2>Recuitments</h2>
+                    <h2>Recruitments</h2>
                     <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
                 </div>
 
                 <!-- use this section, if NOT REQUITING or COMMENT IT
                  ============================================================ -->
 
-                <!-- <div class="sec-sub-title text-center">
+                <div class="sec-sub-title text-center">
                     <p>COMMING SOON!</p>
-                </div> -->
+                </div>
 
                 <!-- use this section, IF REQUITMENTS are LIVE or COMMENT IT
                  ============================================================ -->
 
-                <div class="sec-sub-title text-center">
-                    <p>These are the following departments or working area offered in the two divisions during the recuitment process.</p>
+                <!-- <div class="sec-sub-title text-center">
+                    <p>These are the following departments or working area offered in the two divisions during the recruitment process.</p>
                     <p>Note: Tests will be only taken department-wise, selected members will be further divided into two division in the later stage</p>
                 </div>
 
@@ -686,18 +734,17 @@
                     <div class="service-item">
                         <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
                             <ul class="text-center">
-<!--                                 <li><a href="#paste_the_google_form_link_here" class="active filter"><h3><u>Apply Here!</u></h3></a></li> -->
-				    <h1>Starting Soon!</h1>
+                                <li><a href="#paste_the_google_form_link_here" class="active filter"><h3><u>Apply Here!</u></h3></a></li>
                             </ul>
                     </div>
-                </div>
+                </div> -->
                  
             </div>
         </div>
     </section>
 
     <!--
-        End Recuitments
+        End Recruitments
         ==================================== -->
 
     <!--
