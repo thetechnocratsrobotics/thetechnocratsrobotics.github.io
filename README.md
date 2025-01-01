@@ -54,7 +54,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contributors
 
 This website is developed by the following persons:
-[Kaustav Malik] (https://kaustavmalik.github.io/)
+[Kaustav Malik](https://kaustavmalik.github.io/)
 
 
 ## Contact
